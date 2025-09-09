@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+ShotClear
 
-## Getting Started
+ShotClear is an AI-powered web app that helps businesses and creators generate clean, professional product photography without the need for expensive studio setups. The platform enhances images, removes backgrounds, and applies marketing-ready edits — making product visuals faster, cheaper, and smarter.
 
-First, run the development server:
+🚀 Features
+📸 AI Product Photography – Generate professional-quality product shots instantly.
+🖼 Smart Background Removal – Remove messy or distracting backgrounds with one click.
+🎨 Customizable Scenes – Place products in realistic AI-generated environments.
+📚 Blog & Resources – Learn about product photography, AI in marketing, and e-commerce tips.
+⚡ Fast & Easy Workflow – Designed for businesses, photographers, and creators.
 
-```bash
+📂 Project Structure
+
+Frontend: Built with Next.js + TypeScript for performance and scalability.
+
+Backend: Node.js + Express (API for image processing, authentication).
+
+Database: MongoDB for user and project data.
+
+AI Integration: Uses AI models for background removal and product scene generation.
+
+Hosting: Vercel (frontend), with backend integrated.
+
+🔧 Installation & Setup
+
+# Clone the repository
+
+git clone https://github.com/darmhey/shotclear.git
+cd shotclear
+
+# Install dependencies
+
+npm install
+
+# Run development server
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📌 Roadmap
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+AI product scene templates (seasonal, lifestyle, minimalist).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Batch product uploads.
 
-## Learn More
+Advanced photo retouching tools.
 
-To learn more about Next.js, take a look at the following resources:
+Team collaboration features.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🤝 Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Contributions are welcome! Please open an issue or submit a pull request for feature suggestions, bug fixes, or improvements.
 
-## Deploy on Vercel
+📄 License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+MIT License © 2025 ShotClear
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+⚡ ShotClear helps you create product photos that sell. Fast, affordable, and AI-powered.
+# shotclear
