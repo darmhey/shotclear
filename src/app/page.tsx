@@ -12,14 +12,15 @@ export default function Home() {
         <section className="relative py-12 overflow-hidden">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div className="text-center">
-              <h1 className="text-5xl md:text-7xl font-sofia-sans-condensed font-bold uppercase tracking-wide mb-4">
+              <h1 className="text-[68px] md:text-7xl font-bold uppercase tracking-normal mb-4 font-[Sofia_Sans_Condensed]">
                 Turn Your Basic Product Shots Into Scroll-Stopping Visuals
               </h1>
-              <p className="text-xl md:text-2xl mb-8">
+              <p className="text-xl md:text-2xl mb-10 font-[Nunito_Sans]">
                 AI-powered image enhancement that makes your products stand out
                 and sell faster.
               </p>
-              <button className="bg-black text-white px-8 py-3 rounded-full font-bold hover:bg-gray-800 transition">
+
+              <button className="bg-black text-white px-6 py-4 font-bold hover:bg-gray-800 transition uppercase font-[Space_Grotesk] text-base ">
                 Start for Free →
               </button>
             </div>
@@ -27,7 +28,7 @@ export default function Home() {
               <Image
                 src="/hero-image.png"
                 alt="Before and After Product Shots"
-                width={800}
+                width={900}
                 height={400}
                 className="object-contain"
               />

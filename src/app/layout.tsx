@@ -38,7 +38,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${spaceGrotesk.variable} ${sofiaSansCondensed.variable} ${nunitoSans.variable} antialiased`}
+        className={`${spaceGrotesk.variable} ${sofiaSansCondensed.variable} ${nunitoSans.variable} antialiased font-[Nunito_Sans]`}
       >
         {children}
       </body>
