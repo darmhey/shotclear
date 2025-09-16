@@ -46,87 +46,87 @@ export default function Home() {
         </section>
 
         {/* Purpose Section */}
-        <section className="py-16 bg-white">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-3xl md:text-4xl font-sofia-sans-condensed font-bold mb-4">
+        <section className="py-16 bg-white ">
+          <div className="max-w-7xl mx-auto px-4 sm:px-32  text-left">
+            <h2 className="text-3xl md:text-6xl font-[Sofia_Sans_Condensed] font-bold mb-4 leading-[0.9]">
               A purpose-built AI photo suite designed to take your bold product
               shots and turn them into visuals that stand out, sell more, and
               build brand trust.
             </h2>
-            <p className="text-lg mb-8">
+            <p className="text-lg mb-8 leading-[1.65] font-[Nunito_Sans] text-[#7D7A7A]">
               Shotclear outperforms generic image tools. Why? Because we&apos;re
               laser-focused on product photography. Our specialized AI is
               trained on millions of professional product images, not portraits,
               memes, or general art.
-            </p>
-            <p className="text-lg">
-              Behind Shotclear is a team of background generation, AI
-              specialists obsessed with helping your product look polished,
-              premium, and brand-worthy—without ever stepping into a studio.
+              <p>
+                Behind Shotclear is a team of background generation, AI
+                specialists obsessed with helping your product look polished,
+                premium, and brand-worthy—without ever stepping into a studio.
+              </p>
             </p>
           </div>
         </section>
 
         {/* AI Product Photography Section */}
-        <section className="py-16 bg-white">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-3xl md:text-4xl font-sofia-sans-condensed font-bold uppercase mb-8">
+        <section className="py-16 bg-[#FDF9FE]">
+          <div className="max-w-7xl mx-auto px-4 sm:px-32 text-left">
+            <h2 className="text-sm md:text-3xl font-[Sofia_Sans_Condensed] uppercase font-bold mb-4 leading-[0.9]">
               Shotclear is the AI Product Photography That Actually Understands
               Products
             </h2>
-            <p className="text-lg mb-12">
+            <p className="text-lg mb-8 leading-[1.65] font-[Nunito_Sans] text-[#7D7A7A]">
               Shotclear is trained specifically for product visuals, not
               portraits, memes, or general art. From lighting and reflections to
               textures and angles, our AI is purpose-built to make your product
               look clean, premium, and click-worthy. No guesswork. No gimmicks.
               Just great, fast results.
             </p>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="bg-gray-100 p-6 rounded-lg">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 ">
+              <div className="bg-[#D3E5F0] p-6 rounded-lg ">
                 <Image
                   src="/brain.svg"
                   alt="Brain Icon"
                   width={50}
                   height={50}
-                  className="mx-auto mb-4"
+                  className=" mb-4 "
                 />
-                <h3 className="text-xl font-bold mb-2">
+                <h3 className="text-base font-[Sofia_Sans_Condensed] uppercase font-extrabold mb-4 leading-[0.9]">
                   Trained on Real Ecommerce Product Data
                 </h3>
-                <p>
+                <p className="text-base leading-[1.65] font-[Nunito_Sans] text-[#7D7A7A]">
                   Our models are fine-tuned on millions of real-world product
                   images, selfies or stock.
                 </p>
               </div>
-              <div className="bg-gray-100 p-6 rounded-lg">
+              <div className="bg-[#E6FAE3] p-6 rounded-lg">
                 <Image
                   src="/picture.svg"
                   alt="Picture Icon"
                   width={50}
                   height={50}
-                  className="mx-auto mb-4"
+                  className="mb-4 pl-1"
                 />
-                <h3 className="text-xl font-bold mb-2">
+                <h3 className="text-base  font-[Sofia_Sans_Condensed] uppercase font-extrabold mb-4 leading-[0.9]">
                   Studio-Quality Lighting Simulation
                 </h3>
-                <p>
+                <p className="text-base leading-[1.65] font-[Nunito_Sans] text-[#7D7A7A]">
                   Advanced, accurate shadow handling, unseen lighting, and
                   reflections to mimic a clean, well-lit studio environment
                   without creating a rig.
                 </p>
               </div>
-              <div className="bg-gray-100 p-6 rounded-lg">
+              <div className="bg-[#FFEBE0] p-6 rounded-lg">
                 <Image
                   src="/timer.svg"
                   alt="Timer Icon"
                   width={50}
                   height={50}
-                  className="mx-auto mb-4"
+                  className="mb-4"
                 />
-                <h3 className="text-xl font-bold mb-2">
+                <h3 className="text-base font-[Sofia_Sans_Condensed] uppercase font-extrabold mb-4 leading-[0.9]">
                   Multiple Outputs in Seconds
                 </h3>
-                <p>
+                <p className="text-base leading-[1.65] font-[Nunito_Sans] text-[#7D7A7A]">
                   Generate several high-quality variations. Perfect for Amazon,
                   Instagram, or anything. Lifestyle.
                 </p>
@@ -138,10 +138,10 @@ export default function Home() {
         {/* Generate First Images Section */}
         <section className="py-16 bg-black text-white text-center">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-4xl md:text-5xl font-sofia-sans-condensed font-bold uppercase mb-4">
+            <h2 className="text-5xl font-[Sofia_Sans_Condensed] uppercase  font-bold  mb-4">
               Generate Your First Images For Free
             </h2>
-            <button className="bg-white text-black px-8 py-3 rounded-full font-bold hover:bg-gray-200 transition">
+            <button className="bg-white text-black px-8 py-3 text-2xl font-bold hover:bg-gray-200 font-[Sofia_Sans_Condensed] uppercase  transition">
               Try Shotclear Now
             </button>
           </div>
@@ -149,12 +149,12 @@ export default function Home() {
 
         {/* How It Works Section */}
         <section className="py-16 bg-white">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl font-sofia-sans-condensed font-bold uppercase mb-12 text-center">
+          <div className="max-w-4xl  px-4 sm:px-6 lg:px-8">
+            <h2 className="text-3xl  font-[Sofia_Sans_Condensed] font-bold uppercase mb-4 text-left">
               From Upload to &apos;Wow!&apos; in Seconds
             </h2>
             <div className="space-y-8">
-              <div className="bg-green-50 p-6 rounded-lg">
+              <div className="bg-green-50  ">
                 <h3 className="text-2xl font-sofia-sans-condensed font-bold mb-2">
                   1. Upload Your Product Image
                 </h3>
